@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  font-family: "DIN Light", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+  background-color: white;
+}
