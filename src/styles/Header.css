@@ -1,0 +1,12 @@
+.navbar {
+  padding: 2vw;
+  text-align: right;
+  width: 45%;
+  float: right;
+  color: #000000;
+}
+
+.navLink {
+  padding: 2vw;
+  color: #000000;
+}
