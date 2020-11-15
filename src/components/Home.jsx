@@ -10,7 +10,7 @@ class Home extends Component {
         <div className="welcomeText">
           <h1 classname="nameKg">Hi, I'm Kim Gray.</h1>
           <p>
-            <p>I am a fledging</p> <p> developer, </p>{" "}
+            <p>I am a fledgling</p> <p> developer, </p>{" "}
             <p>
               {" "}
               designer <p> & </p>{" "}
