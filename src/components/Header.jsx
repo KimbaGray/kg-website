@@ -7,33 +7,47 @@ class Header extends Component {
   state = {};
   render() {
     return (
-      <div className="customNav">
-        <Link className="navbar-brand" to="/">
+      <div className=" header">
+        <Link to="/">
           <img
             src={Logo}
             alt="Watercolour illustration of a single orange flower"
             className="logo"
           />
         </Link>
-        <nav className="navbar">
-          <div className="nav">
-            <span className="navLink">
-              <Link className="nav-link" to="/design-and-development">
-                Web/App Design & Development
-              </Link>
-            </span>
-            <span className="navLink">
-              <Link className="nav-link" to="/illustration">
-                Illustration
-              </Link>
-            </span>
-            <span className="navLink">
-              <Link className="nav-link" to="/about">
-                About
-              </Link>
-            </span>
-          </div>
-        </nav>
+        <div class="menu-container">
+          <nav className="menu">
+            <input
+              class="menu-btn"
+              type="checkbox"
+              id="menu-btn"
+              // style="border: 0; outline: 0"
+            />
+            <label class="menu-icon" for="menu-btn" tabindex="0">
+              <span class="navicon"></span>
+            </label>
+            <div class="menu-outer">
+              <ul class="menu-list">
+                <li class="main-nav-item">
+                  <Link className="nav-link" to="/design-and-development">
+                    Web/App Design & Development
+                  </Link>
+                </li>
+                <li class="main-nav-item">
+                  {" "}
+                  <Link className="nav-link" to="/illustration">
+                    Illustration
+                  </Link>
+                </li>
+                <li class="main-nav-item">
+                  <Link className="nav-link" to="/about">
+                    About
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </div>
     );
   }

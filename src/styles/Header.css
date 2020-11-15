@@ -1,61 +1,138 @@
-.navbar {
-  padding: 6vw 0vw 0vw 0vw;
-  text-align: right;
-  width: 100%;
-  float: right;
-  color: #000000;
-}
-
-.customNav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.navLink .nav-link {
-  padding: 2vw;
-  color: #000000;
-  text-decoration: none;
-}
-
-.navLink:hover {
-  text-decoration-line: underline;
-  text-decoration-style: double;
-}
-
 .logo {
   width: 30vw;
   padding: 6vw 0vw 0vw 4vw;
 }
 
+/*----- hamburger menu icon -----*/
+.menu-container {
+  margin-top: -45px;
+}
+.navicon {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.menu-container .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  user-select: none;
+  padding-right: 20px;
+  height: 50px;
+  width: 50px;
+}
+.menu-container .menu-icon:focus {
+  border: 1px dotted grey;
+  margin: -1px;
+  padding-right: 20px;
+  height: 50px;
+  width: 50px;
+}
+*:focus {
+  outline: 0 !important;
+  border: 0 !important;
+}
+.menu-container .menu-icon .navicon {
+  background: black;
+  display: block;
+  height: 3px;
+  position: relative;
+  width: 25px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.menu-container .menu-icon .navicon:before,
+.menu-container .menu-icon .navicon:after {
+  background: black;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+.menu-container .menu-icon .navicon:before {
+  top: 8px;
+}
+.menu-container .menu-icon .navicon:after {
+  top: -8px;
+}
+/*----- menu btn (triggers opening and closing of hamb. menu) -----*/
+.menu-container .menu-btn {
+  display: none;
+}
+.menu-container .menu-btn:checked ~ .menu-outer .menu,
+.menu-container .menu-btn:checked ~ .menu-outer .hq-nav {
+  max-height: 100%;
+}
+.menu-container .menu-btn:checked ~ .menu-outer {
+  max-height: 75vh;
+  margin-top: 6vw;
+  width: 100vw;
+  box-shadow: 0px 2px 4px 0 rgba(30, 31, 33, 0.5);
+}
+.menu-outer {
+  clear: both;
+  overflow-x: auto;
+  max-height: 0;
+}
+.menu-container .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+.menu-container .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+.menu-container .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+.menu-container .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.menu-container .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+/* End basic hamburger menu setup */
+/* --------------------------------- */
+.menu-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: white;
+}
+.main-nav-item a {
+  text-align: right;
+  color: black;
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+.main-nav-item:hover,
+.hq-nav li:hover {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+.main-nav-item:focus,
+.hq-nav .main-nav-item:focus {
+  border: 1px dotted #eee;
+  margin: -1px;
+}
+
 @media only screen and (min-width: 600px) {
-  .customNav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .navbar {
-    padding: 4vw;
-    text-align: right;
-    width: 100%;
-    float: right;
-    color: #000000;
-  }
-
-  .navLink .nav-link {
-    padding: 2vw;
-    color: #000000;
-    text-decoration: none;
-  }
-
-  .navLink:hover {
-    text-decoration-line: underline;
-    text-decoration-style: double;
-  }
-
   .logo {
     width: 8vw;
     padding: 4vw 0vw 0vw 4vw;
+  }
+
+  .menu-container .menu-btn:checked ~ .menu-outer {
+    margin-top: 3vw;
+  }
+
+  .menu-container .menu-icon {
+    margin-top: -20px;
+    padding-right: 4vw;
+  }
+  .menu-container .menu-icon:focus {
+    padding-right: 4vw;
+    margin-top: -20px;
   }
 }

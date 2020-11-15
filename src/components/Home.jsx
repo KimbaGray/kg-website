@@ -10,10 +10,10 @@ class Home extends Component {
         <div className="welcomeText">
           <h1 classname="nameKg">Hi, I'm Kim Gray.</h1>
           <p>
-            <p>I am a </p> <p> designer, </p>{" "}
+            <p>I am a fledging</p> <p> developer, </p>{" "}
             <p>
               {" "}
-              developer <p> & </p>{" "}
+              designer <p> & </p>{" "}
             </p>{" "}
             <p>illustrator. </p>
           </p>
