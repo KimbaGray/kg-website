@@ -1,3 +1,7 @@
+h1 {
+  margin-block-end: 1vw;
+}
+
 .welcomeText {
   width: 75%;
 }
@@ -7,6 +11,60 @@
   flex-direction: column;
 }
 
+.aboutText a:hover {
+  color: #000000;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+.aboutText a {
+  color: #000000;
+  text-decoration: none;
+}
+
 .aboutLines {
-  padding-bottom: 3vh;
+  padding-bottom: 3.5vh;
+}
+
+.social {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.social > a > #icon {
+  width: 4vh;
+  height: 4vh;
+  padding: 2vw;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 32px;
+  display: block;
+  background-color: black;
+  color: white;
+}
+
+.social > a {
+  margin-right: 4vw;
+}
+
+.social a:hover {
+  background-color: white;
+  color: black;
+}
+
+@media only screen and (min-width: 600px) {
+  .social > a > #icon {
+    width: 2vh;
+    height: 2vh;
+    padding: 10px;
+  }
+
+  .social > a {
+    margin-right: 2vw;
+  }
+
+  #icon {
+    font-size: 10px;
+  }
 }
