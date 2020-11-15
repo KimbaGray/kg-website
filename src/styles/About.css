@@ -1,0 +1,12 @@
+.welcomeText {
+  width: 75%;
+}
+
+.aboutText {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutLines {
+  padding-bottom: 3vh;
+}

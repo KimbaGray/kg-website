@@ -8,11 +8,12 @@ h1 {
   font-weight: normal;
 }
 
-p {
+.meKg {
   font-size: 2rem;
   padding-top: 0;
   margin-block-end: 0em;
   margin-block-start: 0em;
+  width: 50%;
 }
 
 .homeButton a {
@@ -54,10 +55,11 @@ p {
     font-weight: normal;
   }
 
-  p {
+  .meKg {
     font-size: 2rem;
     padding-top: 0;
     margin-block-end: 0em;
+    width: 15%;
   }
 
   .homeButton a {

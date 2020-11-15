@@ -9,13 +9,12 @@ class Home extends Component {
       <div>
         <div className="welcomeText">
           <h1 classname="nameKg">Hi, I'm Kim Gray.</h1>
-          <p>
-            <p>I am a fledgling</p> <p> developer, </p>{" "}
-            <p>
-              {" "}
-              designer <p> & </p>{" "}
-            </p>{" "}
-            <p>illustrator. </p>
+          <p className="meKg">
+            <span>I am a fledgling</span> <span> developer, </span>
+            <span>
+              designer <span> & </span>{" "}
+            </span>
+            <span>illustrator. </span>
           </p>
           <div className="homeButtonOuter">
             <div className="homeButtonContainer">
