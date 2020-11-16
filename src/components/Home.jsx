@@ -8,7 +8,7 @@ class Home extends Component {
     return (
       <div>
         <div className="welcomeText">
-          <h1 classname="nameKg">Hi, I'm Kim Gray.</h1>
+          <h1 classname="nameKg">Hi, I'm Kim.</h1>
           <p className="meKg">
             <span>I am a fledgling</span> <span> developer, </span>
             <span>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../styles/About.css";
 import { BiEnvelope } from "react-icons/bi";
-import { FaLinkedinIn } from "react-icons/fa";
+import { TiSocialLinkedin } from "react-icons/ti";
 import { AiOutlineInstagram } from "react-icons/ai";
 
 class About extends Component {
@@ -14,10 +14,18 @@ class About extends Component {
           <a href="mailto:kim.lc.gray@gmail.com">
             <BiEnvelope id="icon" />
           </a>
-          <a href="mailto:kim.lc.gray@gmail.com">
-            <FaLinkedinIn id="icon" />
+          <a
+            href="https://www.linkedin.com/in/kim-gray/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <TiSocialLinkedin id="icon" />
           </a>
-          <a href="mailto:kim.lc.gray@gmail.com">
+          <a
+            href="https://www.instagram.com/kimba_gray/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiOutlineInstagram id="icon" />
           </a>
         </div>
@@ -41,13 +49,13 @@ class About extends Component {
           <span className="aboutLines">
             I completed a Web Development course earlier this year and continue
             to code with my coding group. Led by our previous instructor, we are
-            currently building an{" "}
+            currently building the{" "}
             <a
               href="https://libertybellapp.com/ "
               target="_blank"
               rel="noreferrer"
             >
-              app{" "}
+              Liberty Bell app{" "}
             </a>{" "}
             (coming to app stores near you very soon).
           </span>
