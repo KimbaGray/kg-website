@@ -6,7 +6,11 @@ class Artwork extends Component {
     return (
       <div>
         <div className="imageBox">
-          <img src={this.props.image} alt="dumpling" className="image"></img>
+          <img
+            src={this.props.image}
+            alt="Watercolour illustration of flowers and leaves"
+            className="image"
+          ></img>
         </div>
       </div>
     );
