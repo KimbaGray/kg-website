@@ -83,6 +83,10 @@ a {
     margin-top: 3vw;
   }
 
+  .welcomeText {
+    width: 55%;
+  }
+
   .social {
     margin-top: 2vw;
   }

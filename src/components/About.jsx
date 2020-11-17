@@ -64,11 +64,7 @@ class About extends Component {
             >
               Liberty Bell app{" "}
             </a>{" "}
-            (coming to app stores near you very soon).
-          </span>
-          <span className="aboutLines">
-            I also collect baskets (yes, woven baskets) and wooden spoons (yes,
-            wooden spoons for cooking).
+            - coming to app stores near you very soon!
           </span>
         </p>
       </div>
