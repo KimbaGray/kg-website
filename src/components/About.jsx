@@ -11,15 +11,22 @@ class About extends Component {
       <div className="welcomeText">
         <h1 classname="nameKg">Kim Gray</h1>
         <div className="social">
-          <a href="mailto:kim.lc.gray@gmail.com">
-            <BiEnvelope id="icon" />
-          </a>
           <a
             href="https://www.linkedin.com/in/kim-gray/"
             target="_blank"
             rel="noreferrer"
           >
             <TiSocialLinkedin id="icon" />
+          </a>
+          <a
+            href="https://www.instagram.com/kimba_gray/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span id="cvIcon">CV</span>
+          </a>
+          <a href="mailto:kim.lc.gray@gmail.com">
+            <BiEnvelope id="icon" />
           </a>
           <a
             href="https://www.instagram.com/kimba_gray/"
