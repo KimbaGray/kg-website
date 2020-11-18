@@ -1,0 +1,71 @@
+.designContainer {
+  margin: 12vw 4vw 0vw 4vw;
+  margin-top: 20vw;
+  font-size: 1rem;
+}
+
+#designText {
+  width: 86%;
+}
+
+.grid {
+  margin-bottom: 3vw;
+}
+
+.image {
+  object-fit: contain;
+  width: 100%;
+}
+
+/* #imageLink:hover {
+  opacity: 0.7;
+  cursor: pointer;
+} */
+
+.box {
+  border: lightgrey 1px solid;
+  width: 100%;
+  justify-content: space-between;
+  overflow: hidden;
+  font-size: 1rem;
+}
+
+.textBox {
+  padding: 2vw;
+}
+
+.dumpling {
+  font-size: 0.75rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .designContainer {
+    margin: 4vw 0vw 0vw 4vw;
+    margin-top: 10vw;
+    font-size: 1.5rem;
+  }
+
+  #designText {
+    width: 56%;
+    margin-bottom: 5vw;
+  }
+
+  .grid {
+    /* margin: auto; */
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap: 5vw 5vw;
+    margin-bottom: 3vw;
+  }
+
+  .image {
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .imageBox {
+    justify-content: space-between;
+    overflow: hidden;
+    margin-bottom: 0vw;
+  }
+}

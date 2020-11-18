@@ -35,7 +35,7 @@ class Artwork extends Component {
             src={this.props.image}
             alt="Watercolour illustration of flowers and leaves"
             className="image"
-            onClick={() => this.setState({ isOpen: true, photoIndex: 3 })}
+            onClick={() => this.setState({ isOpen: true, photoIndex: 1 })}
           ></img>
         </div>
 
