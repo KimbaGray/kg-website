@@ -4,68 +4,67 @@
   font-size: 1rem;
 }
 
+a {
+  color: black;
+}
+
+#webLink:hover {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
 #designText {
-  width: 86%;
+  width: 75%;
+  text-align: justify;
 }
 
 .grid {
   margin-bottom: 3vw;
 }
 
-.image {
+.screengrab {
   object-fit: contain;
   width: 100%;
 }
 
-/* #imageLink:hover {
-  opacity: 0.7;
-  cursor: pointer;
-} */
-
-.box {
-  border: lightgrey 1px solid;
-  width: 100%;
-  justify-content: space-between;
-  overflow: hidden;
-  font-size: 1rem;
+.box1 {
+  border: solid 1px lightgrey;
+  margin-bottom: 3vw;
+  margin-right: 4vw;
+  padding: 1vw;
 }
 
 .textBox {
-  padding: 2vw;
-}
-
-.dumpling {
-  font-size: 0.75rem;
+  padding: 4vw;
+  font-size: 1rem;
+  text-align: justify;
 }
 
 @media only screen and (min-width: 600px) {
   .designContainer {
     margin: 4vw 0vw 0vw 4vw;
     margin-top: 10vw;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   #designText {
-    width: 56%;
+    width: 55%;
     margin-bottom: 5vw;
   }
 
-  .grid {
-    /* margin: auto; */
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
-    gap: 5vw 5vw;
-    margin-bottom: 3vw;
-  }
-
-  .image {
-    object-fit: contain;
-    width: 100%;
-  }
-
-  .imageBox {
+  .box1 {
+    display: flex;
     justify-content: space-between;
-    overflow: hidden;
-    margin-bottom: 0vw;
+  }
+
+  .textBox {
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+
+  .screengrab {
+    object-fit: contain;
+    width: 25%;
+    padding: 0.5vw;
   }
 }

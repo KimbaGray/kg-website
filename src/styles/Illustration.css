@@ -1,11 +1,12 @@
 .illustrationContainer {
   margin: 12vw 4vw 0vw 4vw;
   margin-top: 20vw;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 #illustrationText {
   width: 85%;
+  text-align: justify;
 }
 
 .grid {
@@ -72,6 +73,7 @@
   #illustrationText {
     width: 55%;
     margin-bottom: 5vw;
+    text-align: justify;
   }
 
   .grid {

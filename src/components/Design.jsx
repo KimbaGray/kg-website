@@ -22,70 +22,130 @@ class Design extends Component {
     return (
       <div className="designContainer">
         <p id="designText">
-          Having completed a Web Development course, I use front-end technolgies
-          (HTML & CSS, JavaScript, ReactJS) with Node.js, Express Framework and
-          MySQL in my portfolio of projects.
-          <p className="dumpling">
-            Disclaimer: I really love dumplings and needed a theme for some
-            mini-projects 🥟
-          </p>
+          I use front-end technolgies (HTML & CSS, JavaScript, ReactJS) with
+          Node.js, Express Framework and MySQL in my portfolio of projects.
         </p>
-        <div className="grid">
-          <div className="box">
+        <div className="container">
+          <div className="box1">
             <p className="textBox">
-              A portfolio website for a freelance stylist and costume designer,
-              including website design and development and other brand asset
-              creation.
+              A portfolio website for a freelance stylist and costume designer.
+              The project included website design and build, and creating other
+              brand assets.
+              <p>
+                <a
+                  href="https://www.felicitygray.co.uk/"
+                  target="_blank"
+                  rel="noreferrer"
+                  s
+                  id="webLink"
+                >
+                  <span>www.felicitygray.co.uk</span>
+                </a>
+              </p>
             </p>
-          </div>
-          <div className="box">
             <img
               src={D1}
               alt="Felicity Gray Stylist website screen grab"
-              className="image"
-              id="imageLink"
+              className="screengrab"
             ></img>
-          </div>
-          <div className="box">
             <img
               src={D2}
               alt="Felicity Gray Stylist website screen grab"
-              className="image"
+              className="screengrab"
             ></img>
-          </div>
-          <div className="box">
             <img
               src={D3}
               alt="Felicity Gray Stylist website screen grab"
-              className="image"
+              className="screengrab"
             ></img>
           </div>
-          <div className="box">
+          <div className="box1">
             <p className="textBox">
               A portfolio website for a freelance stylist and costume designer,
               including website design and development and other brand asset
               creation.
             </p>
-          </div>
-          <div className="box">
             <img
               src={D4}
               alt="Felicity Gray Stylist website screen grab"
-              className="image"
+              className="screengrab"
             ></img>
-          </div>
-          <div className="box">
             <img
               src={D5}
               alt="Felicity Gray Stylist website screen grab"
-              className="image"
+              className="screengrab"
             ></img>
-          </div>
-          <div className="box">
             <img
               src={D6}
               alt="Felicity Gray Stylist website screen grab"
-              className="image"
+              className="screengrab"
+            ></img>
+          </div>
+          <div className="box1">
+            <p className="textBox">
+              A portfolio website for a freelance stylist and costume designer,
+              including website design and development and other brand asset
+              creation.
+            </p>
+            <img
+              src={D7}
+              alt="Felicity Gray Stylist website screen grab"
+              className="screengrab"
+            ></img>
+            <img
+              src={D8}
+              alt="Felicity Gray Stylist website screen grab"
+              className="screengrab"
+            ></img>
+            <img
+              src={D9}
+              alt="Felicity Gray Stylist website screen grab"
+              className="screengrab"
+            ></img>
+          </div>
+          <div className="box1">
+            <p className="textBox">
+              A portfolio website for a freelance stylist and costume designer,
+              including website design and development and other brand asset
+              creation.
+            </p>
+            <img
+              src={D10}
+              alt="Felicity Gray Stylist website screen grab"
+              className="screengrab"
+            ></img>
+            <img
+              src={D11}
+              alt="Felicity Gray Stylist website screen grab"
+              className="screengrab"
+            ></img>
+            <img
+              src={D12}
+              alt="Felicity Gray Stylist website screen grab"
+              className="screengrab"
+            ></img>
+          </div>
+          <div className="box1">
+            <p className="textBox">
+              <p className="dumpling">
+                Disclaimer: I really love dumplings and needed a theme for some
+                mini-projects 🥟
+              </p>
+            </p>
+            <img
+              src={D13}
+              alt="Felicity Gray Stylist website screen grab"
+              className="screengrab"
+            ></img>
+            <img
+              src={D14}
+              alt="Felicity Gray Stylist website screen grab"
+              className="screengrab"
+            ></img>
+            <img
+              src={D15}
+              alt="Felicity Gray Stylist website screen grab"
+              className="screengrab"
             ></img>
           </div>
         </div>
