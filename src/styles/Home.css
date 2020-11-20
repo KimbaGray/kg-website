@@ -9,11 +9,11 @@ h1 {
 }
 
 .meKg {
-  font-size: 2rem;
+  font-size: 1.75rem;
   padding-top: 0;
   margin-block-end: 0em;
   margin-block-start: 0em;
-  width: 50%;
+  width: 65%;
 }
 
 .homeButton a {
@@ -59,7 +59,7 @@ h1 {
     font-size: 2rem;
     padding-top: 0;
     margin-block-end: 0em;
-    width: 15%;
+    width: 30%;
   }
 
   .homeButton a {

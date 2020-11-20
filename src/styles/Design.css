@@ -13,6 +13,10 @@ a {
   text-decoration-style: wavy;
 }
 
+#dumpling {
+  font-size: 10px;
+}
+
 #designText {
   width: 75%;
   text-align: justify;
@@ -30,7 +34,6 @@ a {
 .box1 {
   border: solid 1px lightgrey;
   margin-bottom: 3vw;
-  margin-right: 4vw;
   padding: 1vw;
 }
 
@@ -55,6 +58,7 @@ a {
   .box1 {
     display: flex;
     justify-content: space-between;
+    margin-right: 4vw;
   }
 
   .textBox {

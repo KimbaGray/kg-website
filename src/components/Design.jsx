@@ -15,6 +15,9 @@ import D12 from "../images/designdev/12.png";
 import D13 from "../images/designdev/13.png";
 import D14 from "../images/designdev/14.png";
 import D15 from "../images/designdev/15.png";
+import D16 from "../images/designdev/16.png";
+import D17 from "../images/designdev/17.png";
+import D18 from "../images/designdev/18.png";
 
 class Design extends Component {
   state = {};
@@ -22,8 +25,8 @@ class Design extends Component {
     return (
       <div className="designContainer">
         <p id="designText">
-          I use front-end technolgies (HTML & CSS, JavaScript, ReactJS) with
-          Node.js, Express Framework and MySQL in my portfolio of projects.
+          I have used front-end technolgies (HTML & CSS, JavaScript, ReactJS)
+          with Node.js, Express Framework and MySQL in my portfolio of projects.
         </p>
         <div className="container">
           <div className="box1">
@@ -39,31 +42,39 @@ class Design extends Component {
                   s
                   id="webLink"
                 >
-                  <span>www.felicitygray.co.uk</span>
+                  <span>felicitygray.co.uk</span>
                 </a>
               </p>
             </p>
             <img
               src={D1}
-              alt="Felicity Gray Stylist website screen grab"
+              alt="Homepage of a portfolio website"
               className="screengrab"
             ></img>
             <img
               src={D2}
-              alt="Felicity Gray Stylist website screen grab"
+              alt="Black and white pop-up of woman with head on hand"
               className="screengrab"
             ></img>
-            <img
-              src={D3}
-              alt="Felicity Gray Stylist website screen grab"
-              className="screengrab"
-            ></img>
+            <img src={D3} alt="Various logos" className="screengrab"></img>
           </div>
           <div className="box1">
             <p className="textBox">
-              A portfolio website for a freelance stylist and costume designer,
-              including website design and development and other brand asset
-              creation.
+              Website, app and logo design and development for a group project
+              concepted and built during the lockdown months of COVID-19.
+              Designed to help those who would like to live independently
+              continue to do so.
+              <p>
+                <a
+                  href="https://libertybellapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  s
+                  id="webLink"
+                >
+                  <span>libertybellapp.com</span>
+                </a>
+              </p>
             </p>
             <img
               src={D4}
@@ -83,22 +94,32 @@ class Design extends Component {
           </div>
           <div className="box1">
             <p className="textBox">
-              A portfolio website for a freelance stylist and costume designer,
-              including website design and development and other brand asset
-              creation.
+              A personal portfolio website to show web and app design and
+              development, and watercolour illustration.
+              <p>
+                <a
+                  href="https://kimgray.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  s
+                  id="webLink"
+                >
+                  <span>kimgray.netlify.app</span>
+                </a>
+              </p>
             </p>
             <img
-              src={D7}
+              src={D16}
               alt="Felicity Gray Stylist website screen grab"
               className="screengrab"
             ></img>
             <img
-              src={D8}
+              src={D17}
               alt="Felicity Gray Stylist website screen grab"
               className="screengrab"
             ></img>
             <img
-              src={D9}
+              src={D18}
               alt="Felicity Gray Stylist website screen grab"
               className="screengrab"
             ></img>
@@ -108,6 +129,17 @@ class Design extends Component {
               A portfolio website for a freelance stylist and costume designer,
               including website design and development and other brand asset
               creation.
+              <p>
+                <a
+                  href="https://brazilianglow.co.uk/"
+                  target="_blank"
+                  rel="noreferrer"
+                  s
+                  id="webLink"
+                >
+                  <span>brazilianglow.co.uk</span>
+                </a>
+              </p>
             </p>
             <img
               src={D10}
@@ -127,9 +159,28 @@ class Design extends Component {
           </div>
           <div className="box1">
             <p className="textBox">
-              <p className="dumpling">
-                Disclaimer: I really love dumplings and needed a theme for some
-                mini-projects 🥟
+              Two dumpling-themed React mini-projects. I really love dumplings.
+              <p>
+                <a
+                  href="https://onestopdumplingshop.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  s
+                  id="webLink"
+                >
+                  <span>dumplingshop.netlify</span>
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://dumplingsfordays.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  s
+                  id="webLink"
+                >
+                  <span>dumplingsfordays.netlify</span>
+                </a>
               </p>
             </p>
             <img
@@ -144,6 +195,37 @@ class Design extends Component {
             ></img>
             <img
               src={D15}
+              alt="Felicity Gray Stylist website screen grab"
+              className="screengrab"
+            ></img>
+          </div>
+          <div className="box1">
+            <p className="textBox">
+              A project for a
+              <p>
+                <a
+                  href="https://kimbagray.github.io/wildo-coda-project/index.html"
+                  target="_blank"
+                  rel="noreferrer"
+                  s
+                  id="webLink"
+                >
+                  <span>wildo-coda-project</span>
+                </a>
+              </p>
+            </p>
+            <img
+              src={D7}
+              alt="Felicity Gray Stylist website screen grab"
+              className="screengrab"
+            ></img>
+            <img
+              src={D8}
+              alt="Felicity Gray Stylist website screen grab"
+              className="screengrab"
+            ></img>
+            <img
+              src={D9}
               alt="Felicity Gray Stylist website screen grab"
               className="screengrab"
             ></img>

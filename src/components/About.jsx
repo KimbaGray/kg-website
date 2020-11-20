@@ -55,7 +55,7 @@ class About extends Component {
           </span>
           <span className="aboutLines">
             I completed a Web Development course earlier this year and continue
-            to code with my coding group. Led by our previous instructor, we are
+            to code with my coding group. Led by our former instructor, we are
             currently building the{" "}
             <a
               href="https://libertybellapp.com/ "

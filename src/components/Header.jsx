@@ -35,7 +35,7 @@ class Header extends Component {
                 </li>
                 <li class="main-nav-item">
                   <Link className="nav-link" to="/design-and-development">
-                    Web/App Design & Development
+                    Design & Development
                   </Link>
                 </li>
                 <li class="main-nav-item">
