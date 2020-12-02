@@ -26,7 +26,7 @@ class Design extends Component {
       <div className="designContainer">
         <p id="designText">
           I have used front-end technolgies (HTML & CSS, JavaScript, ReactJS)
-          with Node.js, Express Framework and MySQL in my portfolio of projects.
+          with Node.js, Express and MySQL in my portfolio of projects.
         </p>
         <div className="container">
           <div className="box1">
@@ -60,8 +60,8 @@ class Design extends Component {
           </div>
           <div className="box1">
             <p className="textBox">
-              Website, app and logo design and development for a group project
-              concepted and built during the lockdown months of COVID-19.
+              Website, app and logo design and build for a group project
+              concepted and programmed during the lockdown months of COVID-19.
               Designed to help those who would like to live independently
               continue to do so.
               <p>
@@ -126,9 +126,9 @@ class Design extends Component {
           </div>
           <div className="box1">
             <p className="textBox">
-              A portfolio website for a freelance stylist and costume designer,
-              including website design and development and other brand asset
-              creation.
+              Website design and build for a Reiki practitioner, for her clients
+              to book sessions. The project was part of a full-stack development
+              course.
               <p>
                 <a
                   href="https://brazilianglow.co.uk/"
@@ -159,7 +159,8 @@ class Design extends Component {
           </div>
           <div className="box1">
             <p className="textBox">
-              Two dumpling-themed React mini-projects. I really love dumplings.
+              Two dumpling-themed React mini-projects (best viewed on desktop
+              devices). I really love dumplings.
               <p>
                 <a
                   href="https://onestopdumplingshop.netlify.app/"
@@ -201,7 +202,8 @@ class Design extends Component {
           </div>
           <div className="box1">
             <p className="textBox">
-              A project for a
+              A simple travel blog designed and built as part of a full-stack
+              development course.
               <p>
                 <a
                   href="https://kimbagray.github.io/wildo-coda-project/index.html"

@@ -40,7 +40,6 @@ a {
 .textBox {
   padding: 4vw;
   font-size: 1rem;
-  text-align: justify;
 }
 
 @media only screen and (min-width: 600px) {
