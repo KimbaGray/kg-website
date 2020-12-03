@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../styles/About.css";
+import CV_button from "../images/CV_button.png";
 import { BiEnvelope } from "react-icons/bi";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { AiOutlineInstagram } from "react-icons/ai";
@@ -23,7 +24,13 @@ class About extends Component {
             target="_blank"
             rel="noreferrer"
           >
-            <span id="cvIcon">CV</span>
+            <span id="cvButton">
+              <img
+                src={CV_button}
+                alt="Watercolour illustration of flowers and leaves"
+                className="image"
+              ></img>
+            </span>
           </a>
           <a href="mailto:kim.lc.gray@gmail.com">
             <BiEnvelope id="icon" />

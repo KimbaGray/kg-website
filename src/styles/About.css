@@ -66,6 +66,10 @@ a {
   letter-spacing: 2px;
 }
 
+#cvButton img {
+  width: 12.5vw;
+}
+
 #cvIcon:hover {
   background-color: rgba(0, 0, 0, 0.6);
 }
@@ -79,6 +83,10 @@ a {
 }
 
 @media only screen and (min-width: 600px) {
+  #cvButton img {
+    width: 3vw;
+  }
+
   .aboutText {
     margin-top: 3vw;
   }
@@ -105,14 +113,5 @@ a {
 
   .social > a {
     margin-right: 2vw;
-  }
-}
-
-/* 1792x828px at 326ppi - iphone 11*/
-@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
-  #cvIcon {
-    width: 3vh;
-    height: 3vh;
-    padding-top: 10px;
   }
 }
