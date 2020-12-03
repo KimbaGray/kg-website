@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Header.css";
 import Logo from "../images/Logo.png";
+import ScrollToTopBtn from "../utils/scrollToTopBtn";
 
 class Header extends Component {
   state = {};
@@ -53,6 +54,7 @@ class Header extends Component {
             </div>
           </nav>
         </div>
+        <ScrollToTopBtn />
       </div>
     );
   }
