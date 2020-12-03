@@ -1,6 +1,5 @@
 @font-face {
   font-family: "dinlight";
-  src: local("DIN Light"), url(./fonts/DINLightRegular.otf) format("otf");
   src: url("./fonts/DIN-Light.eot");
   src: url("./fonts/din_light_regular-webfont.woff2") format("woff2"),
     url("./fonts/din_light_regular-webfont.woff") format("woff"),
@@ -16,7 +15,7 @@
 
 body {
   margin: 0;
-  font-family: "DIN Light", sans-serif;
+  font-family: "dinlight", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: black;
