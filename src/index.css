@@ -1,20 +1,14 @@
 @font-face {
   font-family: "DIN";
   src: local("DIN Light"), url(./fonts/DINLightRegular.otf) format("otf");
-  src: url("//db.onlinewebfonts.com/t/cbf9b417fc15851ba870990e585e35a2.eot");
-  src: url("//db.onlinewebfonts.com/t/cbf9b417fc15851ba870990e585e35a2.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/cbf9b417fc15851ba870990e585e35a2.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/cbf9b417fc15851ba870990e585e35a2.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/cbf9b417fc15851ba870990e585e35a2.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/cbf9b417fc15851ba870990e585e35a2.svg#DIN")
-      format("svg");
-  font-weight: 300;
+
+  src: url("fonts/DIN-Light.eot");
+  src: url("fonts/DIN-Light.eot?#iefix") format("eot"),
+    url("fonts/DIN-Light.woff") format("woff"),
+    url("fonts/DIN-Light.ttf") format("truetype"),
+    url("fonts/DIN-Light.svg#DIN-Light") format("svg");
+  font-weight: lighter;
   font-style: normal;
-  font-display: swap;
 }
 
 @import url(//db.onlinewebfonts.com/c/cbf9b417fc15851ba870990e585e35a2?family=DIN);
