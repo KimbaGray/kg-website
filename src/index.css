@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "DIN Light", sans-serif;
+  src: local("DIN Light"), url(./fonts/DINLightRegular.otf) format("otf");
+}
+
 body {
   margin: 0;
   font-family: "DIN Light", sans-serif;
