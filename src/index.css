@@ -1,12 +1,11 @@
 @font-face {
   font-family: "DIN";
   src: local("DIN Light"), url(./fonts/DINLightRegular.otf) format("otf");
-
-  src: url("fonts/DIN-Light.eot");
-  src: url("fonts/DIN-Light.eot?#iefix") format("eot"),
-    url("fonts/DIN-Light.woff") format("woff"),
-    url("fonts/DIN-Light.ttf") format("truetype"),
-    url("fonts/DIN-Light.svg#DIN-Light") format("svg");
+  src: url("./fonts/DIN-Light.eot");
+  src: url("./fonts/DIN-Light.eot?#iefix") format("eot"),
+    url("./fonts/DIN-Light.woff") format("woff"),
+    url("./fonts/DIN-Light.ttf") format("truetype"),
+    url("./fonts/DIN-Light.svg#DIN-Light") format("svg");
   font-weight: lighter;
   font-style: normal;
 }
