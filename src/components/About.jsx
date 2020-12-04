@@ -27,7 +27,7 @@ class About extends Component {
             <span id="cvButton">
               <img
                 src={CV_button}
-                alt="Watercolour illustration of flowers and leaves"
+                alt="Round black button with CV"
                 className="image"
               ></img>
             </span>

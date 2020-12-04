@@ -51,21 +51,6 @@ a {
   font-size: 12px;
 }
 
-#cvIcon {
-  width: 4vh;
-  height: 4vh;
-  padding: 2vw;
-  text-align: center;
-  line-height: 26px;
-  border-radius: 32px;
-  display: block;
-  background-color: black;
-  color: white;
-  text-decoration: none !important;
-  font-weight: bold;
-  letter-spacing: 2px;
-}
-
 #cvButton img {
   width: 12.5vw;
 }
@@ -100,12 +85,6 @@ a {
   }
 
   .social > a > #icon {
-    width: 3vh;
-    height: 3vh;
-    padding: 9px;
-  }
-
-  #cvIcon {
     width: 3vh;
     height: 3vh;
     padding: 9px;
