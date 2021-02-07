@@ -57,8 +57,8 @@ class About extends Component {
             .
           </span>
           <span className="aboutLines">
-            By night, I am a learner web designer and developer, watercolour
-            illustrator and occasional sewist.
+            By night, I am a web designer and developer, watercolour illustrator
+            and occasional sewist.
           </span>
           <span className="aboutLines">
             I completed a Web Development course last spring and continue to
