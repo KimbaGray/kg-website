@@ -20,7 +20,7 @@ class About extends Component {
             <TiSocialLinkedin id="icon" />
           </a>
           <a
-            href="https://drive.google.com/file/d/1iLh0omcAfFgfXAzOmngB5h_e5oRJ7Qn3/view?usp=sharing"
+            href="https://drive.google.com/file/d/1cLOWUenq9OvPcWMsOPVAa-wiTQBAsrp0/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
@@ -45,8 +45,8 @@ class About extends Component {
         </div>
         <p className="aboutText">
           <span className="aboutLines">
-            By day, I support diversity and inclusion in tech by driving
-            engagement through programmes and events as Programme Manager at{" "}
+            By day, I lead projects and programmes for a 20,000+ community of
+            women, as Programme Manaager at
             <a
               href="https://codefirstgirls.org.uk/"
               target="_blank"
@@ -61,8 +61,8 @@ class About extends Component {
             illustrator and occasional sewist.
           </span>
           <span className="aboutLines">
-            I completed a Web Development course earlier this year and continue
-            to code with my coding group. Led by our former instructor, we are
+            I completed a Web Development course last spring and continue to
+            code with my coding group. Led by our former instructor, we are
             currently building the{" "}
             <a
               href="https://libertybellapp.com/ "
