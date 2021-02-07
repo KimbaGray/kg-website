@@ -20,7 +20,7 @@ class About extends Component {
             <TiSocialLinkedin id="icon" />
           </a>
           <a
-            href="https://drive.google.com/file/d/1cLOWUenq9OvPcWMsOPVAa-wiTQBAsrp0/view?usp=sharing"
+            href="https://drive.google.com/file/d/19p55L1rZSnLm0fdS33yHyQK-5sDyUH2f/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
