@@ -79,3 +79,12 @@ h1 {
     color: #000000;
   }
 }
+
+@media only screen and (device-width: 768px) {
+  .homeButtonOuter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6vh;
+    color: #000000;
+  }
+}

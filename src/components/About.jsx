@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "../styles/About.css";
-import CV_button from "../images/CV_button.png";
 import { BiEnvelope } from "react-icons/bi";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { AiOutlineInstagram } from "react-icons/ai";
+import { CgProfile } from "react-icons/cg";
 
 class About extends Component {
   state = {};
@@ -24,13 +24,7 @@ class About extends Component {
             target="_blank"
             rel="noreferrer"
           >
-            <span id="cvButton">
-              <img
-                src={CV_button}
-                alt="Round black button with CV"
-                className="image"
-              ></img>
-            </span>
+            <CgProfile id="icon" />
           </a>
           <a href="mailto:kim.lc.gray@gmail.com">
             <BiEnvelope id="icon" />
