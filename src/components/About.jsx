@@ -46,7 +46,7 @@ class About extends Component {
         <p className="aboutText">
           <span className="aboutLines">
             By day, I lead projects and programmes for a 20,000+ community of
-            women, as Programme Manaager at
+            women, as Programme Manager at{" "}
             <a
               href="https://codefirstgirls.org.uk/"
               target="_blank"
