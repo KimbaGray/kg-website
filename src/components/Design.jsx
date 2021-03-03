@@ -27,7 +27,7 @@ class Design extends Component {
         <p id="designText">
           I have used front-end technolgies (HTML & CSS, JavaScript, ReactJS)
           with Node.js, Express and MySQL in my portfolio of projects. I also
-          have experience of developing and maintaing websites using the
+          have experience of developing and maintaining websites using the
           WordPress CMS.
         </p>
         <div className="container">
