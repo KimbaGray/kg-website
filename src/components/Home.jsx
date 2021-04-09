@@ -10,6 +10,7 @@ class Home extends Component {
         <div className="welcomeText">
           <h1 classname="nameKg">Hi, I'm Kim.</h1>
           <p className="meKg">
+            <span>She / her.</span>
             <span> Developer &</span>
             <span> designer. </span>
             <span>Watercolour illustrator.</span>
