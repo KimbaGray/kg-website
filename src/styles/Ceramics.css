@@ -1,0 +1,98 @@
+.illustrationContainer {
+  margin: 12vw 4vw 0vw 4vw;
+  margin-top: 20vw;
+  font-size: 1rem;
+}
+
+#illustrationText {
+  width: 85%;
+  text-align: justify;
+}
+
+.grid {
+  margin-bottom: 3vw;
+}
+
+.image {
+  object-fit: contain;
+  width: 100%;
+}
+
+.image:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.imageBox {
+  /* border: lightgrey 1px solid; */
+  width: 100%;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-bottom: 4vw;
+}
+
+.ril__caption,
+.ril__toolbar {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.ril__builtinButton {
+  background-color: #6d6e70 !important;
+}
+
+.ril__zoomOutButton {
+  background-color: #6d6e70 !important;
+}
+
+.ril__outer {
+  background: rgba(255, 255, 255, 1) !important;
+}
+
+.ril__navButtonNext {
+  background-color: #6d6e70 !important;
+}
+
+.ril__navButtonPrev {
+  background-color: #6d6e70 !important;
+}
+
+.ril__navButtons {
+  padding: 30px 20px !important;
+}
+
+.ril__loadingContainer__icon {
+  color: #6d6e70 !important;
+}
+
+@media only screen and (min-width: 600px) {
+  .illustrationContainer {
+    margin: 4vw 0vw 0vw 4vw;
+    margin-top: 10vw;
+  }
+
+  #illustrationText {
+    width: 55%;
+    margin-bottom: 5vw;
+    text-align: justify;
+  }
+
+  .grid {
+    /* margin: auto; */
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    /* grid-template-rows: 25% 25% 25%; */
+    gap: 5vw 5vw;
+    margin-bottom: 3vw;
+  }
+
+  .image {
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .imageBox {
+    justify-content: space-between;
+    overflow: hidden;
+    margin-bottom: 0vw;
+  }
+}

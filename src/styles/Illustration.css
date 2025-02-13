@@ -24,7 +24,7 @@
 }
 
 .imageBox {
-  border: lightgrey 1px solid;
+  /* border: lightgrey 1px solid; */
   width: 100%;
   justify-content: space-between;
   overflow: hidden;

@@ -5,6 +5,7 @@ import About from "./components/About.jsx";
 import Design from "./components/Design.jsx";
 import Home from "./components/Home.jsx";
 import Illustration from "./components/Illustration.jsx";
+import Ceramics from "./components/Ceramics.jsx";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import Error from "./components/Error";
@@ -16,6 +17,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/design-and-development" component={Design} />
+          <Route path="/ceramics" component={Ceramics} />
           <Route path="/illustration" component={Illustration} />
           <Route path="/about" component={About} />
           <Route component={Error} />

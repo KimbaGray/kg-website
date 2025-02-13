@@ -10,20 +10,22 @@ class Home extends Component {
         <div className="welcomeText">
           <h1 classname="nameKg">Hi, I'm Kim.</h1>
           <p className="meKg">
-            <span>She / her.</span>
-            <span> Developer &</span>
-            <span> designer. </span>
-            <span>Watercolour illustrator.</span>
+            <span> Ceramicist and watercolour illustrator.</span>
           </p>
           <div className="homeButtonOuter">
-            <div className="homeButtonContainer">
+            {/* <div className="homeButtonContainer">
               <span className="homeButton">
                 <Link to="/design-and-development">Design & Development</Link>
+              </span>
+            </div> */}
+            <div className="homeButtonContainer">
+              <span className="homeButton">
+                <Link to="/illustration">Illustration</Link>
               </span>
             </div>
             <div className="homeButtonContainer">
               <span className="homeButton">
-                <Link to="/illustration">Illustration</Link>
+                <Link to="/ceramics">Ceramics</Link>
               </span>
             </div>
             <div className="homeButtonContainer">

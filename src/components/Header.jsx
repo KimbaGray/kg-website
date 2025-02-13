@@ -34,9 +34,15 @@ class Header extends Component {
                     Home
                   </Link>
                 </li>
-                <li class="main-nav-item">
+                {/* <li class="main-nav-item">
                   <Link className="nav-link" to="/design-and-development">
                     Design & Development
+                  </Link>
+                </li> */}
+                <li class="main-nav-item">
+                  {" "}
+                  <Link className="nav-link" to="/ceramics">
+                    Ceramics
                   </Link>
                 </li>
                 <li class="main-nav-item">
