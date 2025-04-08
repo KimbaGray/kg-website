@@ -22,25 +22,19 @@ class About extends Component {
           <a href="mailto:kim.lc.gray@gmail.com">
             <BiEnvelope id="icon" />
           </a>
-          <a
-            href="https://www.instagram.com/kimba_gray/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <AiOutlineInstagram id="icon" />
-          </a>
         </div>
         <p className="aboutText">
           <span className="aboutLines">
-            By day, I manage operations at{" "}
+            By day, I'm part of the Senior Leadership Team at{" "}
             <a
               href="https://codefirstgirls.org.uk/"
               target="_blank"
               rel="noreferrer"
             >
               Code First Girls
-            </a>
-            . By night, I am a watercolour illustrator, ceramicist and occasional sewist.
+            </a>, as Associate Director of Operations.
+            <br/> <br/>
+            By night, I am a watercolour illustrator, ceramicist, occasional sewist and web designer and developer.
           </span>
         </p>
       </div>

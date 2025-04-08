@@ -61,8 +61,6 @@ class CeramicsArtwork extends Component {
               onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
             />
           </div>
-        </div>
-        <div className="grid">
           <div className="imageBox">
             <img
               src={C2}
@@ -70,11 +68,240 @@ class CeramicsArtwork extends Component {
               onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
             />
           </div>
-        </div>
-        <div className="grid">
           <div className="imageBox">
             <img
               src={C3}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          {/* <div className="imageBox">
+            <img
+              src={C4}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div> */}
+          <div className="imageBox">
+            <img
+              src={C5}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C6}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C7}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C8}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C9}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C10}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C11}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C12}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C13}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C12}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C13}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          {/* <div className="imageBox">
+            <img
+              src={C14}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div> */}
+          <div className="imageBox">
+            <img
+              src={C15}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C16}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          {/* <div className="imageBox">
+            <img
+              src={C17}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div> */}
+          <div className="imageBox">
+            <img
+              src={C18}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C19}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C20}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C21}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C22}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C23}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C24}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C25}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C26}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C27}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C28}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C29}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C30}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C31}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C32}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C33}
+              className="image"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+            />
+          </div>
+          <div className="imageBox">
+            <img
+              src={C34}
               className="image"
               onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
             />

@@ -1,0 +1,9 @@
+.footer {
+    font-size: 12px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    height: 1.5rem;
+  }
+  
